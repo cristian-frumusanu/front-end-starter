@@ -1,0 +1,10 @@
+table{
+	border-collapse: collapse;
+	border: 1px solid $gray-light;
+}
+
+th,
+td {
+	padding: 5px;
+	border: 1px solid $gray-light;
+}

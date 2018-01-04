@@ -1,0 +1,18 @@
+.text-center { text-align: center; }
+
+.text-uppercase { text-transform: uppercase; }
+
+.link-unstyled {
+	&,
+	&:visited,
+	&:hover,
+	&:active,
+	&:focus,
+	&:active:hover {
+		background-color: transparent;
+		text-decoration: none;
+		outline: inherit;
+		box-shadow: inherit;
+		vertical-align: inherit;
+	}
+}

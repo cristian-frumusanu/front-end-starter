@@ -1,0 +1,23 @@
+%font-input {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+label,
+input,
+select {
+	@extend %font-input;
+}
+
+input,
+select {
+	padding: 10px 14px;
+}
+
+input,
+select,
+option {
+	border: 1px solid $gray-light;
+	background-color: transparent;
+}

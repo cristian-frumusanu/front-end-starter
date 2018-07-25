@@ -2451,7 +2451,6 @@ td {
   color: #e62e4c; }
 
 .read-more-gradient-amaranth:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(230, 46, 76, 0)), to(#e62e4c));
   background: linear-gradient(to bottom, rgba(230, 46, 76, 0) 0%, #e62e4c 100%); }
 
 .text-shadow-amaranth {
@@ -2473,7 +2472,6 @@ td {
   color: #004266; }
 
 .read-more-gradient-blueperussian:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 66, 102, 0)), to(#004266));
   background: linear-gradient(to bottom, rgba(0, 66, 102, 0) 0%, #004266 100%); }
 
 .text-shadow-blueperussian {
@@ -2495,7 +2493,6 @@ td {
   color: #9e2986; }
 
 .read-more-gradient-purpledark:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(158, 41, 134, 0)), to(#9e2986));
   background: linear-gradient(to bottom, rgba(158, 41, 134, 0) 0%, #9e2986 100%); }
 
 .text-shadow-purpledark {
@@ -2517,7 +2514,6 @@ td {
   color: #00b0db; }
 
 .read-more-gradient-blueiris:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 176, 219, 0)), to(#00b0db));
   background: linear-gradient(to bottom, rgba(0, 176, 219, 0) 0%, #00b0db 100%); }
 
 .text-shadow-blueiris {
@@ -2539,7 +2535,6 @@ td {
   color: #54993d; }
 
 .read-more-gradient-greensalad:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 153, 61, 0)), to(#54993d));
   background: linear-gradient(to bottom, rgba(84, 153, 61, 0) 0%, #54993d 100%); }
 
 .text-shadow-greensalad {
@@ -2561,7 +2556,6 @@ td {
   color: #24593e; }
 
 .read-more-gradient-greenpea:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 89, 62, 0)), to(#24593e));
   background: linear-gradient(to bottom, rgba(36, 89, 62, 0) 0%, #24593e 100%); }
 
 .text-shadow-greenpea {
@@ -2583,7 +2577,6 @@ td {
   color: #992925; }
 
 .read-more-gradient-orangemandarin:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 41, 37, 0)), to(#992925));
   background: linear-gradient(to bottom, rgba(153, 41, 37, 0) 0%, #992925 100%); }
 
 .text-shadow-orangemandarin {
@@ -2605,7 +2598,6 @@ td {
   color: #f2a724; }
 
 .read-more-gradient-yellowsea:before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 167, 36, 0)), to(#f2a724));
   background: linear-gradient(to bottom, rgba(242, 167, 36, 0) 0%, #f2a724 100%); }
 
 .text-shadow-yellowsea {
@@ -2621,6 +2613,5 @@ td {
   background-color: transparent;
   text-decoration: none;
   outline: inherit;
-  -webkit-box-shadow: inherit;
-          box-shadow: inherit;
+  box-shadow: inherit;
   vertical-align: inherit; }
